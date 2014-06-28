@@ -1,4 +1,4 @@
-Blade Symphony Character Assets
+Blade Symphony Map Sources
 ============
 
 Blade Symphony map files
