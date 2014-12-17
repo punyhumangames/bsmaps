@@ -1,0 +1,26 @@
+Info
+{
+	"NextInternalID" "4"
+}
+Maps
+{
+	VMF
+	{
+		"Name" "base"
+		"File" "cp_docks_instance.vmf"
+		"InternalID" "1"
+		"TopLevel" "1"
+	}
+	VMF
+	{
+		"Name" "cp1"
+		"File" "capture_point.vmf"
+		"InternalID" "2"
+	}
+	VMF
+	{
+		"Name" "map"
+		"File" "cp_docks.vmf"
+		"InternalID" "3"
+	}
+}
