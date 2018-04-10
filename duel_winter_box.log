@@ -1,0 +1,237 @@
+
+
+
+materialPath: O:\SteamTrioInstall\steamapps\common\Blade Symphony\berimbau\materials
+Loading o:\git\bsmaps\bsmaps\duel_winter_box.vmf
+ConVarRef gpu_level doesn't point to an existing ConVar
+Material not found!: LOSTCOAST/NATURE/DIRTPATH001A
+Material not found!: AIRSHIP/BALLOON
+Material not found!: DEV/DEV_BLENDMEASURE
+Material not found!: INTERIOR/PLASTER_01
+nummapplanes:     ( 10396 / 65536 )
+nummapbrushes:    (  1115 /  8192 )
+nummapbrushsides: ( 12486 / 65536 )
+num_map_overlays: (    66 /   512 )
+nummodels:		(     0 /  1024 )
+Patching WVT material: maps/duel_winter_box/snow/snow_003_mush_blend_wvt_patch
+Patching WVT material: maps/duel_winter_box/snow/roof_04_snow_003_blend_wvt_patch
+Patching WVT material: maps/duel_winter_box/winter/snow01_rock_face_wvt_patch
+Patching WVT material: maps/duel_winter_box/snow/wood_old_planks3_blend-with-snow_wvt_patch
+fixing up env_cubemap materials on brush sides...
+env_cubemap pointing at deleted brushside near (-1100, -855, -59)
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 1806 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing o:\git\bsmaps\bsmaps\duel_winter_box.prt...Building visibility clusters...
+done (0)
+WARNING: node without a volume
+WARNING: node without a volume
+WARNING: node without a volume
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (409031 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 3687 texinfos to 1616
+Reduced 75 texdatas to 61 (2287 bytes to 1800)
+Writing o:\git\bsmaps\bsmaps\duel_winter_box.bsp
+2 seconds elapsed
+
+
+
+8 threads
+reading o:\git\bsmaps\bsmaps\duel_winter_box.bsp
+reading o:\git\bsmaps\bsmaps\duel_winter_box.prt
+  66 portalclusters
+ 170 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 4212
+Average clusters visible: 63
+Building PAS...
+Average clusters audible: 64
+visdatasize:1708  compressed from 2112
+writing o:\git\bsmaps\bsmaps\duel_winter_box.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[61 texlights parsed from 'lights.rad']
+
+Loading o:\git\bsmaps\bsmaps\duel_winter_box.bsp
+3465 faces
+5 degenerate faces
+924028 square feet [133060168.00 square inches]
+257 Displacements
+177724 Square Feet [25592278.00 Square Inches]
+3460 patches before subdivision
+zero area child patch
+114458 patches after subdivision
+52 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 6880839, max 964
+transfer lists:  52.5 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(41010, 29632, 37401)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(1411, 1337, 1942)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(167, 142, 193)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(13, 15, 22)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(2, 2, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(0, 0, 1)
+Build Patch/Sample Hash Table(s).....Done<0.0351 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  11/1024          528/49152    ( 1.1%) 
+brushes               1115/8192        13380/98304    (13.6%) 
+brushsides           11098/65536       88784/524288   (16.9%) 
+planes               10428/65536      208560/1310720  (15.9%) 
+vertexes              8446/65536      101352/786432   (12.9%) 
+nodes                  493/65536       15776/2097152  ( 0.8%) 
+texinfos              1616/12288      116352/884736   (13.2%) 
+texdata                 61/2048         1952/65536    ( 3.0%) 
+dispinfos              257/0           45232/0        ( 0.0%) 
+disp_verts           31073/0          621460/0        ( 0.0%) 
+disp_tris            52096/0          104192/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples     1981924/0         1981924/0        ( 0.0%) 
+faces                 3465/65536      194040/3670016  ( 5.3%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             2169/65536      121464/3670016  ( 3.3%) 
+facebrushes            183/0             366/0        ( 0.0%) 
+facebrushlists        3465/0           13860/0        ( 0.0%) 
+leaves                 505/65536       16160/2097152  ( 0.8%) 
+leaffaces             3616/65536        7232/131072   ( 5.5%) 
+leafbrushes           1656/65536        3312/131072   ( 2.5%) 
+areas                    3/256            24/2048     ( 1.2%) 
+surfedges            25801/512000     103204/2048000  ( 5.0%) 
+edges                17161/256000      68644/1024000  ( 6.7%) 
+LDR worldlights         52/8192         5200/819200   ( 0.6%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            667/32768        6670/327680   ( 2.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         12495/65536       24990/131072   (19.1%) 
+cubemapsamples           8/1024          128/16384    ( 0.8%) 
+overlays                66/512         23232/180224   (12.9%) 
+LDR lightdata         [variable]    12184192/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        1708/16777216 ( 0.0%) 
+entdata               [variable]      253814/393216   (64.5%) 
+LDR ambient table      505/65536        2020/262144   ( 0.8%) 
+HDR ambient table      505/65536        2020/262144   ( 0.8%) 
+LDR leaf ambient      2535/65536       70980/1835008  ( 3.9%) 
+HDR leaf ambient       505/65536       14140/1835008  ( 0.8%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/27144    ( 0.0%) 
+pakfile               [variable]     1676699/0        ( 0.0%) 
+physics               [variable]      409031/4194304  ( 9.8%) 
+physics terrain       [variable]       92514/1048576  ( 8.8%) 
+
+Level flags = 1
+
+Total triangle count: 10275
+Writing o:\git\bsmaps\bsmaps\duel_winter_box.bsp
+11 minutes, 59 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[61 texlights parsed from 'lights.rad']
+
+Loading o:\git\bsmaps\bsmaps\duel_winter_box.bsp
+3465 faces
+5 degenerate faces
+924028 square feet [133060168.00 square inches]
+257 Displacements
+177724 Square Feet [25592278.00 Square Inches]
+3460 patches before subdivision
+zero area child patch
+114458 patches after subdivision
+52 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 6880839, max 964
+transfer lists:  52.5 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(41010, 29632, 37401)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(1411, 1337, 1942)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(167, 142, 193)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(13, 15, 22)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(2, 2, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(0, 0, 1)
+Build Patch/Sample Hash Table(s).....Done<0.3061 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  11/1024          528/49152    ( 1.1%) 
+brushes               1115/8192        13380/98304    (13.6%) 
+brushsides           11098/65536       88784/524288   (16.9%) 
+planes               10428/65536      208560/1310720  (15.9%) 
+vertexes              8446/65536      101352/786432   (12.9%) 
+nodes                  493/65536       15776/2097152  ( 0.8%) 
+texinfos              1616/12288      116352/884736   (13.2%) 
+texdata                 61/2048         1952/65536    ( 3.0%) 
+dispinfos              257/0           45232/0        ( 0.0%) 
+disp_verts           31073/0          621460/0        ( 0.0%) 
+disp_tris            52096/0          104192/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples     1981924/0         1981924/0        ( 0.0%) 
+faces                 3465/65536      194040/3670016  ( 5.3%) 
+hdr faces             3465/65536      194040/3670016  ( 5.3%) 
+origfaces             2169/65536      121464/3670016  ( 3.3%) 
+facebrushes            183/0             366/0        ( 0.0%) 
+facebrushlists        3465/0           13860/0        ( 0.0%) 
+leaves                 505/65536       16160/2097152  ( 0.8%) 
+leaffaces             3616/65536        7232/131072   ( 5.5%) 
+leafbrushes           1656/65536        3312/131072   ( 2.5%) 
+areas                    3/256            24/2048     ( 1.2%) 
+surfedges            25801/512000     103204/2048000  ( 5.0%) 
+edges                17161/256000      68644/1024000  ( 6.7%) 
+LDR worldlights         52/8192         5200/819200   ( 0.6%) 
+HDR worldlights         52/8192         5200/819200   ( 0.6%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            667/32768        6670/327680   ( 2.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         12495/65536       24990/131072   (19.1%) 
+cubemapsamples           8/1024          128/16384    ( 0.8%) 
+overlays                66/512         23232/180224   (12.9%) 
+LDR lightdata         [variable]    12184192/0        ( 0.0%) 
+HDR lightdata         [variable]    12184192/0        ( 0.0%) 
+visdata               [variable]        1708/16777216 ( 0.0%) 
+entdata               [variable]      253814/393216   (64.5%) 
+LDR ambient table      505/65536        2020/262144   ( 0.8%) 
+HDR ambient table      505/65536        2020/262144   ( 0.8%) 
+LDR leaf ambient      2535/65536       70980/1835008  ( 3.9%) 
+HDR leaf ambient      2535/65536       70980/1835008  ( 3.9%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/27144    ( 0.0%) 
+pakfile               [variable]     2678759/0        ( 0.0%) 
+physics               [variable]      409031/4194304  ( 9.8%) 
+physics terrain       [variable]       92514/1048576  ( 8.8%) 
+
+Level flags = 3
+
+Total triangle count: 10275
+Writing o:\git\bsmaps\bsmaps\duel_winter_box.bsp
+14 minutes, 50 seconds elapsed
