@@ -1,8 +1,8 @@
 versioninfo
 {
 	"editorversion" "400"
-	"editorbuild" "5685"
-	"mapversion" "81"
+	"editorbuild" "8205"
+	"mapversion" "82"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "81"
+	"mapversion" "82"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -8414,6 +8414,7 @@ entity
 	"classname" "berimbau_spawn"
 	"angles" "0 0 0"
 	"duel" "Duel1"
+	"duelteam" "1"
 	"origin" "-128 -832 64.0961"
 	editor
 	{
@@ -8462,7 +8463,7 @@ entity
 	"classname" "berimbau_spawn"
 	"angles" "0 180 0"
 	"duel" "Duel1"
-	"duelteam" "0"
+	"duelteam" "2"
 	"spawnid" "1"
 	"origin" "128 -832 64.0961"
 	editor
@@ -8479,6 +8480,7 @@ entity
 	"classname" "berimbau_spawn"
 	"angles" "0 180 0"
 	"duel" "Duel2"
+	"duelteam" "2"
 	"spawnid" "1"
 	"origin" "128 0 64"
 	editor
@@ -8529,7 +8531,8 @@ entity
 	"classname" "berimbau_spawn"
 	"angles" "0 0 0"
 	"duel" "Duel2"
-	"origin" "-128 -6.10352e-005 64"
+	"duelteam" "1"
+	"origin" "-128 -6.10352e-05 64"
 	editor
 	{
 		"color" "220 30 220"
@@ -8560,6 +8563,7 @@ entity
 	"classname" "berimbau_spawn"
 	"angles" "0 180 0"
 	"duel" "Duel3"
+	"duelteam" "2"
 	"spawnid" "1"
 	"origin" "128 832 64"
 	editor
@@ -8594,6 +8598,7 @@ entity
 	"classname" "berimbau_spawn"
 	"angles" "0 0 0"
 	"duel" "Duel3"
+	"duelteam" "1"
 	"origin" "-128 832 64"
 	editor
 	{
@@ -10184,8 +10189,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[201.076 -662.551 229.454]"
-		"look" "[198.624 -665.23 228.63]"
+		"position" "[194.171 -252.785 178.608]"
+		"look" "[192.132 -249.708 179.101]"
 	}
 }
 cordons
